@@ -8,9 +8,8 @@ This is a three hour hands on workshop drawn from the book [R for Data Science](
 
 To work on RStudio cloud (recommended):
 
-1. Open the shared space: <http://bit.ly/rice-vis-19>.
-1. Click "Projects".
-1. "Start" the visualisation assignment.
+1. Open the shared project: <http://bit.ly/rice-vcs-2019>.
+1. Click "Save a permanent copy".
 1. Click "00-Getting-started.Rmd" in the files pane.
 
 ### Own laptop
