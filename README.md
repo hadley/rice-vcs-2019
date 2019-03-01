@@ -1,8 +1,6 @@
-This is the repo for *"Data Visualisation using R"* given at [](https://vcs.rice.edu) 2019-03-01.
+# Data Visualisation using R
 
-## Description
-
-This is a three hour hands on workshop drawn from the book [R for Data Science](http://r4ds.had.co.nz/). You will learn the basics of visualisation with ggplot2, and a little about data manipulation with dplyr.
+This is a three hour hands on workshop drawn from the book [R for Data Science](http://r4ds.had.co.nz/) given at the [Rice Communication Symposium](https://vcs.rice.edu) on 2019-03-01. You will learn the basics of visualisation with ggplot2, and a little about data manipulation with dplyr.
 
 ## Setup
 
