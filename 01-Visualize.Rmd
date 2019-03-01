@@ -1,9 +1,10 @@
 ---
 title: "Visualization"
-output: html_notebook
-editor_options: 
-  chunk_output_type: inline
 ---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(collapse = TRUE, comment = "#>")
+```
 
 <!-- This file by Amelia McNamara is licensed under a Creative Commons Attribution 4.0 International License, adapted from the orignal work at https://github.com/rstudio/master-the-tidyverse by RStudio. -->
 
@@ -122,7 +123,7 @@ ggplot(data = bechdel, mapping = aes(x = budget, y = domgross)) +
 ```{r}
 ggplot(data = bechdel, mapping = aes(x = budget, y = domgross)) +
   geom_point(mapping = aes(color = clean_test)) +
-  geom_smooth(data = filter(bechdel, clean_test == "ok"))
+  geom_smooth(data = dplyr::filter(bechdel, clean_test == "ok"))
 ```
 
 
